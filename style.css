@@ -1,0 +1,714 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    
+}
+.clear {
+    clear: both;
+}
+
+#main {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#mainNavBar {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5A5A5A;
+    margin: 0px auto;
+    width: 99%;
+}
+
+#firstNavBar1 {
+    width: 150px; 
+    border-left: none;
+    height: 33px;
+    margin-top: 7px;
+    margin-bottom:-10px;
+}
+#firstNavBar2 {
+    width: 180px;
+    }
+#firstNavBar2:hover {
+    height: 36px;
+    border-bottom: 4px blue inset;
+    }
+
+#firstNavBar3 {
+    width: 70px;
+    }
+#firstNavBar3:hover {
+    height: 36px;
+    border-bottom: 4px darkblue inset;
+    }
+
+#firstNavBar4 {
+    width: 70px;
+    }
+#firstNavBar4:hover {
+    height: 36px;
+    border-bottom: 4px brown inset;
+    }
+
+#firstNavBar5 {
+    width: 70px;
+    }
+#firstNavBar5:hover {
+    height: 36px;
+    border-bottom: 4px #FFD230 inset;
+    }
+
+#firstNavBar6 {
+    width: 90px;
+    }
+#firstNavBar6:hover {
+    height: 36px;
+    border-bottom: 4px skyblue inset;
+    }
+
+#firstNavBar7 {
+    width: 70px;
+    }
+#firstNavBar7:hover {
+    height: 36px;
+    border-bottom: 4px blue inset;
+    }
+
+#firstNavBar8 {
+    width: 70px;
+    }
+#firstNavBar8:hover {
+    height: 36px;
+    border-bottom: 4px red inset;
+    }
+
+#firstNavBar9 {
+    width: 70px;
+    }
+#firstNavBar9:hover {
+    height: 36px;
+    border-bottom: 4px green inset;
+    }
+
+#firstNavBar10 {
+    width: 80px;
+    }
+#firstNavBar10:hover {
+    height: 36px;
+    border-bottom: 4px orange inset;
+    }
+
+#firstNavBar11 {
+    width: 170px;
+    }
+#firstNavBar11:hover {
+    height: 36px;
+    border-bottom: 4px black inset;
+    }
+
+#firstNavBar12 {
+    width: 210px;
+    }
+
+.FNB>p {
+    margin-top: 12px;
+}
+
+.FNB {
+    float: left;
+    height: 40px;
+    border-left: 1px #E4E4E4 solid;
+    text-align: center;
+    cursor: pointer;   
+}
+
+.bbcLogo {
+    height: 25px;
+    margin-left: 55px;
+}
+
+.signImg {
+    margin-top: 9px;
+    margin-left: 10px;
+    float: left;
+}
+
+.Sign {
+    float: left;
+    margin-top: 12px;
+    margin-left: 42px;
+}
+/*
+.Home {
+    margin-left: 9px;
+}
+
+.News {
+    margin-left: 11px;
+}
+
+.Sport {
+    margin-left: 11px;
+}
+
+.Weather {
+    margin-left: 9px;
+}
+.Shop {
+    margin-left: 11px;
+}
+
+.Reel {
+    margin-left: 13px;
+}
+
+.Travel {
+    margin-left: 9px;
+}
+
+.Capital {
+    margin-left: 11px;
+}*/
+
+.More {
+    margin-left: -75px;
+    position: relative;
+    top: 12px;
+    text-align: justify;
+}
+
+.moreImg {
+    position: relative;
+    top: 10px;
+    left: 72px;
+}
+
+.search {
+    padding: 3px;
+    height: 19px;
+    background-color: #E4E4E4;
+    border: none;  
+    width: 140px;
+}
+
+.searchBtn {
+    background-image: url(glass.png);
+    position: relative;
+    top: 7px;
+    height: 25px;
+    width: 32px;
+    border: none;
+    color: #5A5A5A;
+}
+
+/*-------End Of Nav Bar-------*/
+
+#titleDiv {
+    background-color: #FFD230;
+    position: relative;
+    border-top: 1px #E4E4E4 solid;
+    height: 65px;
+    width: 100%;
+    margin: 0px auto;
+    border-bottom: none;
+    overflow: hidden;
+}
+
+#titleDiv>p{
+    font-weight: bold;
+    font-size: 38px;
+    color: #121212;
+    position: relative;
+    top: -25px; 
+    left: 45px;
+}
+
+
+/*-------End Of Titel Bar-------*/
+
+#secondNavBar {
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+    height: 30px;
+    width: 100%;
+    background-color: #FFD230;
+    border-Top: 1px #E4E4E4 solid;
+}
+
+#snvList {
+    display: inline-flex;
+    margin: 0px;
+    list-style: none;
+    height: 100%;
+}
+
+.SNV{
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    color: #5A5A5A;
+}
+
+.homeSb {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+    
+}
+
+.football {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.formula {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.snvF {
+    width: 100px;
+}
+
+.cricket {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.rugby {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.tennis {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.golf {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.athletics {
+    position: relative;
+    top: -10px;
+    border-right: 1px #E4E4E4 solid; 
+}
+
+.SNV9 {
+    
+    border-left: 1px #E4E4E4 solid;
+    margin-left: 500px;
+    cursor: pointer;
+    position: relative;
+    color: #5A5A5A;
+}
+.allSports {
+    position: relative;
+    top: -35px;
+    left: 40px;
+}
+.allSportsImg {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+.hover1{
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover1:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover2:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.snvF:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover4:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover5:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover6:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover7:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.hover8:hover {
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+.this:hover {
+    width: 110px;
+    height: 27px;
+    border-bottom: 3px black solid;
+}
+
+/*-------End Of Second Nav Bar-------*/
+
+#continer {
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#main-continer {
+    width: 70%;
+    height: 100%;
+    padding-right: 10px;
+    margin-top: 15px;
+    float: left;
+    border-right: 1px #E4E4E4 solid;
+}
+
+#nadalImg {
+    margin-left: 55px;
+    float: left;
+}
+
+.tennisArtical {
+    float: left;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: -20px;
+    text-align: justify;
+    color: 5A5A5A;
+}
+
+#information {
+    margin-top: 315px;
+    margin-left: -199px;
+    float: left; 
+    width: 200px;
+}
+
+#time {
+    width: 52px;
+    padding-right: 5px;
+    border-right:1px #E4E4E4 solid;
+    float: left;
+    font-size: 14px;
+}
+#time span{
+    position: relative;
+    top: -1px;
+}
+
+#section {
+    float:left;
+    margin-left: 5px;
+    padding-right: 5px;
+    border-right:1px #E4E4E4 solid;
+    font-size: 14px;
+}
+
+#list {
+    float: left;
+    margin-left: 5px;
+    font-size: 14px;
+}
+#list img{
+    float: left;
+    margin-right: 5px;
+}
+
+/*---------End Of Tennis Artical*/
+
+#grizman {
+    margin-top: -330px;
+    margin-left: 740px;
+    width: 200px;
+    float: left; 
+}
+
+.grizmanImg {
+    width: 200px
+}
+.barcelona {
+    position: relative;
+    
+    top:-10px;
+    text-align: left;
+}
+
+/*-----End Of Griezmann News-----*/
+
+#otherArticals{
+    width: 100%;
+    float: left;
+    color: #5A5A5A;
+    padding-bottom: 120px;
+    border-bottom: 1px #E4E4E4 solid;
+}
+
+#otherArtical1{
+    margin-top: 20px;
+    margin-left: 55px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical2{
+    position: relative;
+    top: 22px;
+    left: 15px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical3{
+    position: relative;
+    top: 23px;
+    left: 30px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical4{
+    position: relative;
+    top: 23px;
+    left: 45px;
+    float: left;
+    width: 210px;
+    height: 200px;
+}
+
+#otherArtical1-2{
+    margin-top: 20px;
+    margin-left: 55px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical2-2{
+    position: relative;
+    top: 22px;
+    left: 15px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical3-2{
+    position: relative;
+    top: 23px;
+    left: 30px;
+    float: left;
+     width: 210px;
+    height: 200px;
+}
+
+#otherArtical4-2{
+    position: relative;
+    top: 23px;
+    left: 45px;
+    float: left;
+    width: 210px;
+    height: 200px;
+}
+#section1 {
+    float:left;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.otherA1 {
+    width: 210px;
+}
+
+.double {
+    position: relative;
+    top: 60px;
+}
+
+/*----- End Of Main Container-----*/
+
+#footballScores {
+    text-align: center;
+    padding-bottom: 160px;
+    border-bottom: 1px #E4E4E4 solid;
+}
+
+#footballScores h2{
+    text-align: left;
+}
+
+.cup {
+    list-style: none;
+    display: inline-flex;
+    width: 70%;
+    font-weight: bold;
+    border-bottom: 1px grey solid;
+    text-align: left;
+    font-size: 18px;
+    margin-left: -70px;
+}
+.more1 {
+    margin-right: 55px;
+    border-bottom: 3px black solid;
+    float: left;
+    text-align: left;
+    margin-left: -40px; 
+}
+
+.more2 {
+    font-weight: normal;
+    color: darkgreen
+}
+.imgMore2{
+    margin-left: 8px;
+    height: 5px;
+    position: relative;
+    top: -2px
+}
+
+.date {
+    height: 20px;
+    width: 77%;
+    background: #EEE;
+    padding: 6px 0px 2px 15px;
+}
+
+.ft-score {
+    text-align: center;
+    position: relative;
+    left: 18%;
+}
+
+.Hearts{
+    float: left ;
+    margin-right: 6px;
+}
+.FTscore{
+    height: 20px;
+    width: 20px;
+    background: blue;
+    float: left;
+    margin-left: 4px;
+    margin-top: 17px;
+    text-align: center;
+    padding-top: 2px;
+    color: white;
+}
+.Utd{
+    float: left;
+    margin-left: 10px;
+}
+
+.ft{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: -10px;
+    color: deepskyblue;
+    
+}
+.match{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-left: -30px;
+    font-size: 14px;
+}
+
+.viewAll{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-left: -30px;
+    font-size: 14px;
+}
+.viewAll a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.viewAll a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+/*----- End of Football Score panel-----*/
+
+#side-container {
+    width: 28%;
+    float: right;
+    margin-top: 15px;
+}
+
+#side-Articals{
+    margin-top: 15px;
+}
+#sidArtical1Img {
+    width: 150px;
+    float: left;
+}
+.artcal-side-1 {
+    float: left;
+    width: 180px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#sidArtical2Img {
+    margin-top: 30px;
+    width: 150px;
+    float: left;
+}
+.artcal-side-2 {
+    margin-top: 32px;
+    float: left;
+    width: 180px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+#sidArtical3Img {
+    margin-top: 30px;
+    width: 150px;
+    float: left;
+}
+.artcal-side-3 {
+    margin-top: 32px;
+    float: left;
+    width: 180px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
